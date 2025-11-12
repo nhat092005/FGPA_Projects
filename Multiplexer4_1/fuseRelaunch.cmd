@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/Working_Space/Multiplexer4_1/Testbench_Multiplexer4_1_isim_beh.exe" -prj "/home/ise/Working_Space/Multiplexer4_1/Testbench_Multiplexer4_1_beh.prj" "work.Testbench_Multiplexer4_1" "work.glbl" 

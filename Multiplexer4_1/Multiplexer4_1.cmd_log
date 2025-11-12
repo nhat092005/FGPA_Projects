@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "/home/ise/Working_Space/Multiplexer4_1/Multiplexer4_1.xst" -ofn "/home/ise/Working_Space/Multiplexer4_1/Multiplexer4_1.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Multiplexer4_1/Multiplexer4_1.xst" -ofn "/home/ise/Working_Space/Multiplexer4_1/Multiplexer4_1.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Multiplexer4_1/Multiplexer4_1.xst" -ofn "/home/ise/Working_Space/Multiplexer4_1/Multiplexer4_1.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Multiplexer4_1/Multiplexer4_1.xst" -ofn "/home/ise/Working_Space/Multiplexer4_1/Multiplexer4_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Multiplexer4_1.ngc Multiplexer4_1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Multiplexer4_1_map.ncd Multiplexer4_1.ngd Multiplexer4_1.pcf 
+par -w -intstyle ise -ol high -t 1 Multiplexer4_1_map.ncd Multiplexer4_1.ncd Multiplexer4_1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Multiplexer4_1.twx Multiplexer4_1.ncd -o Multiplexer4_1.twr Multiplexer4_1.pcf 
+bitgen -intstyle ise -f Multiplexer4_1.ut Multiplexer4_1.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Multiplexer4_1/Multiplexer4_1.xst" -ofn "/home/ise/Working_Space/Multiplexer4_1/Multiplexer4_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Multiplexer4_1.ngc Multiplexer4_1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Multiplexer4_1_map.ncd Multiplexer4_1.ngd Multiplexer4_1.pcf 
+par -w -intstyle ise -ol high -t 1 Multiplexer4_1_map.ncd Multiplexer4_1.ncd Multiplexer4_1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Multiplexer4_1.twx Multiplexer4_1.ncd -o Multiplexer4_1.twr Multiplexer4_1.pcf 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Multiplexer4_1/Multiplexer4_1.xst" -ofn "/home/ise/Working_Space/Multiplexer4_1/Multiplexer4_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Multiplexer4_1.ngc Multiplexer4_1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Multiplexer4_1_map.ncd Multiplexer4_1.ngd Multiplexer4_1.pcf 
+par -w -intstyle ise -ol high -t 1 Multiplexer4_1_map.ncd Multiplexer4_1.ncd Multiplexer4_1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Multiplexer4_1.twx Multiplexer4_1.ncd -o Multiplexer4_1.twr Multiplexer4_1.pcf 
+bitgen -intstyle ise -f Multiplexer4_1.ut Multiplexer4_1.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Multiplexer4_1/Multiplexer4_1.xst" -ofn "/home/ise/Working_Space/Multiplexer4_1/Multiplexer4_1.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Multiplexer4_1/Multiplexer4_1.xst" -ofn "/home/ise/Working_Space/Multiplexer4_1/Multiplexer4_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Multiplexer4_1.ucf -p xc3s500e-fg320-4 Multiplexer4_1.ngc Multiplexer4_1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Multiplexer4_1_map.ncd Multiplexer4_1.ngd Multiplexer4_1.pcf 
+par -w -intstyle ise -ol high -t 1 Multiplexer4_1_map.ncd Multiplexer4_1.ncd Multiplexer4_1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Multiplexer4_1.twx Multiplexer4_1.ncd -o Multiplexer4_1.twr Multiplexer4_1.pcf -ucf Multiplexer4_1.ucf 
+bitgen -intstyle ise -f Multiplexer4_1.ut Multiplexer4_1.ncd 

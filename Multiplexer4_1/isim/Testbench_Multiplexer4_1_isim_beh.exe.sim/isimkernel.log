@@ -1,0 +1,28 @@
+Command line:
+   Testbench_Multiplexer4_1_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52473
+
+Tue Aug 26 06:52:41 2025
+
+
+ Elaboration Time: 0.04 sec
+
+ Current Memory Usage: 198.578 Meg
+
+ Total Signals          : 16
+ Total Nets             : 20
+ Total Signal Drivers   : 8
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 11
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 139
+
+ Total Simulation Time: 0.11 sec
+
+ Current Memory Usage: 276.177 Meg
+
+Tue Aug 26 07:02:34 2025
+

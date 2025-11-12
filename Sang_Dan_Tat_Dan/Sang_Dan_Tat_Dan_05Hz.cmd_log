@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week7/Sang_Dan_Tat_Dan/Sang_Dan_Tat_Dan_05Hz.xst" -ofn "/home/ise/Working_Space/Week7/Sang_Dan_Tat_Dan/Sang_Dan_Tat_Dan_05Hz.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week7/Sang_Dan_Tat_Dan/Sang_Dan_Tat_Dan_05Hz.xst" -ofn "/home/ise/Working_Space/Week7/Sang_Dan_Tat_Dan/Sang_Dan_Tat_Dan_05Hz.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week7/Sang_Dan_Tat_Dan/Sang_Dan_Tat_Dan_05Hz.xst" -ofn "/home/ise/Working_Space/Week7/Sang_Dan_Tat_Dan/Sang_Dan_Tat_Dan_05Hz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Sang_Dan_Tat_Dan_05Hz.ucf -p xc3s500e-fg320-4 Sang_Dan_Tat_Dan_05Hz.ngc Sang_Dan_Tat_Dan_05Hz.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Sang_Dan_Tat_Dan_05Hz_map.ncd Sang_Dan_Tat_Dan_05Hz.ngd Sang_Dan_Tat_Dan_05Hz.pcf 
+par -w -intstyle ise -ol high -t 1 Sang_Dan_Tat_Dan_05Hz_map.ncd Sang_Dan_Tat_Dan_05Hz.ncd Sang_Dan_Tat_Dan_05Hz.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Sang_Dan_Tat_Dan_05Hz.twx Sang_Dan_Tat_Dan_05Hz.ncd -o Sang_Dan_Tat_Dan_05Hz.twr Sang_Dan_Tat_Dan_05Hz.pcf -ucf Sang_Dan_Tat_Dan_05Hz.ucf 
+bitgen -intstyle ise -f Sang_Dan_Tat_Dan_05Hz.ut Sang_Dan_Tat_Dan_05Hz.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week7/Sang_Dan_Tat_Dan/Sang_Dan_Tat_Dan_05Hz.xst" -ofn "/home/ise/Working_Space/Week7/Sang_Dan_Tat_Dan/Sang_Dan_Tat_Dan_05Hz.syr" 

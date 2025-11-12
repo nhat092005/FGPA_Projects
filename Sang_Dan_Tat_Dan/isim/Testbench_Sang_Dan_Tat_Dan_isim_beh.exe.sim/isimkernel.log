@@ -1,0 +1,28 @@
+Command line:
+   Testbench_Sang_Dan_Tat_Dan_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  35752
+
+Sat Oct 11 08:19:28 2025
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 198.578 Meg
+
+ Total Signals          : 17
+ Total Nets             : 24
+ Total Signal Drivers   : 9
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 14
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 116
+
+ Total Simulation Time: 0.04 sec
+
+ Current Memory Usage: 276.177 Meg
+
+Sat Oct 11 08:22:45 2025
+

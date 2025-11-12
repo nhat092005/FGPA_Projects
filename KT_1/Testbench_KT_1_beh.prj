@@ -1,0 +1,5 @@
+verilog work "Mux4_1_E_High.v"
+verilog work "Demux1_4_E_High.v"
+verilog work "KT_1.v"
+verilog work "Testbench_KT_1.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

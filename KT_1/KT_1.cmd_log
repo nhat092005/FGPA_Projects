@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/ise/Working_Space/Chapter_2/KT_1/KT_1.xst" -ofn "/home/ise/Working_Space/Chapter_2/KT_1/KT_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc KT_1.ucf -p xc3s500e-fg320-4 KT_1.ngc KT_1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o KT_1_map.ncd KT_1.ngd KT_1.pcf 
+par -w -intstyle ise -ol high -t 1 KT_1_map.ncd KT_1.ncd KT_1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml KT_1.twx KT_1.ncd -o KT_1.twr KT_1.pcf -ucf KT_1.ucf 
+bitgen -intstyle ise -f KT_1.ut KT_1.ncd 

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Working_Space/Backup/Chon_4_Che_Do_Co_Tam_Dung/ClockDiv.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Working_Space/Backup/Chon_4_Che_Do_Co_Tam_Dung/LEDController.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Working_Space/Backup/Chon_4_Che_Do_Co_Tam_Dung/Mode1Processor.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Working_Space/Backup/Chon_4_Che_Do_Co_Tam_Dung/Mode2Processor.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Working_Space/Backup/Chon_4_Che_Do_Co_Tam_Dung/Mode3Processor.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Working_Space/Backup/Chon_4_Che_Do_Co_Tam_Dung/Mode4Processor.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Working_Space/Backup/Chon_4_Che_Do_Co_Tam_Dung/ModeProcessors.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Working_Space/Backup/Chon_4_Che_Do_Co_Tam_Dung/ModeSelector.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Working_Space/Backup/Chon_4_Che_Do_Co_Tam_Dung/PauseController.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Working_Space/Backup/Chon_4_Che_Do_Co_Tam_Dung/TM1638.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Working_Space/Backup/Chon_4_Che_Do_Co_Tam_Dung/TickGen.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/ise/Working_Space/Backup/Chon_4_Che_Do_Co_Tam_Dung/top.v&quot; into library work</arg>
+</msg>
+
+</messages>
+

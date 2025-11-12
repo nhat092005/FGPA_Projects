@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="26">
+  <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../Mode4Processor.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Mode3Processor.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Mode2Processor.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Mode1Processor.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../TickGen.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../PauseController.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../ModeSelector.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../ModeProcessors.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../LEDController.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="LEDController"/>
+    </Config>
+  </FileSet>
+</DARoots>

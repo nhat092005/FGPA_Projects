@@ -1,0 +1,38 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "clk_50M" LOC = C9;
+NET "reset" LOC = V4;
+NET "sw_mode1" LOC = L14;
+NET "sw_mode0" LOC = L13;
+NET "sw_pause" LOC = H18;
+
+# PlanAhead Generated IO constraints 
+
+NET "sw_pause" IOSTANDARD = LVTTL;
+NET "sw_mode1" IOSTANDARD = LVTTL;
+NET "sw_mode0" IOSTANDARD = LVTTL;
+NET "sw_mode0" PULLUP;
+NET "sw_mode1" PULLUP;
+NET "sw_pause" PULLUP;
+NET "reset" PULLDOWN;
+
+# PlanAhead Generated physical constraints 
+
+NET "clk" LOC = F8;
+
+# PlanAhead Generated IO constraints 
+
+NET "clk" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "dio" LOC = C7;
+NET "stb" LOC = E8;
+
+# PlanAhead Generated IO constraints 
+
+NET "dio" IOSTANDARD = LVCMOS33;
+NET "stb" IOSTANDARD = LVCMOS33;
+NET "reset" IOSTANDARD = LVTTL;
+NET "clk_50M" IOSTANDARD = LVCMOS33;

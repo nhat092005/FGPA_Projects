@@ -1,0 +1,547 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.01 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.01 secs
+ 
+--> 
+Reading design: LEDController.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "LEDController.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "LEDController"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : LEDController
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "Mode4Processor.v" in library work
+Compiling verilog file "Mode3Processor.v" in library work
+Module <Mode4Processor> compiled
+Compiling verilog file "Mode2Processor.v" in library work
+Module <Mode3Processor> compiled
+Compiling verilog file "Mode1Processor.v" in library work
+Module <Mode2Processor> compiled
+Compiling verilog file "TickGen.v" in library work
+Module <Mode1Processor> compiled
+Compiling verilog file "PauseController.v" in library work
+Module <TickGen> compiled
+Compiling verilog file "ModeSelector.v" in library work
+Module <PauseController> compiled
+Compiling verilog file "ModeProcessors.v" in library work
+Module <ModeSelector> compiled
+Compiling verilog file "LEDController.v" in library work
+Module <ModeProcessors> compiled
+Module <LEDController> compiled
+No errors in compilation
+Analysis of file <"LEDController.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <LEDController> in library <work> with parameters.
+	TICK_FREQ = "00000010111110101111000010000000"
+
+Analyzing hierarchy for module <TickGen> in library <work> with parameters.
+	M = "00000010111110101111000010000000"
+
+Analyzing hierarchy for module <ModeSelector> in library <work>.
+
+Analyzing hierarchy for module <PauseController> in library <work>.
+
+Analyzing hierarchy for module <ModeProcessors> in library <work>.
+
+Analyzing hierarchy for module <Mode1Processor> in library <work>.
+
+Analyzing hierarchy for module <Mode2Processor> in library <work>.
+
+Analyzing hierarchy for module <Mode3Processor> in library <work>.
+
+Analyzing hierarchy for module <Mode4Processor> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <LEDController>.
+	TICK_FREQ = 32'sb00000010111110101111000010000000
+Module <LEDController> is correct for synthesis.
+ 
+Analyzing module <TickGen> in library <work>.
+	M = 32'sb00000010111110101111000010000000
+Module <TickGen> is correct for synthesis.
+ 
+Analyzing module <ModeSelector> in library <work>.
+Module <ModeSelector> is correct for synthesis.
+ 
+Analyzing module <PauseController> in library <work>.
+Module <PauseController> is correct for synthesis.
+ 
+Analyzing module <ModeProcessors> in library <work>.
+Module <ModeProcessors> is correct for synthesis.
+ 
+Analyzing module <Mode1Processor> in library <work>.
+Module <Mode1Processor> is correct for synthesis.
+ 
+Analyzing module <Mode2Processor> in library <work>.
+Module <Mode2Processor> is correct for synthesis.
+ 
+Analyzing module <Mode3Processor> in library <work>.
+Module <Mode3Processor> is correct for synthesis.
+ 
+Analyzing module <Mode4Processor> in library <work>.
+Module <Mode4Processor> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <TickGen>.
+    Related source file is "TickGen.v".
+    Found 31-bit up counter for signal <r_reg>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <TickGen> synthesized.
+
+
+Synthesizing Unit <ModeSelector>.
+    Related source file is "ModeSelector.v".
+    Found 2-bit register for signal <mode>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <ModeSelector> synthesized.
+
+
+Synthesizing Unit <PauseController>.
+    Related source file is "PauseController.v".
+    Found 1-bit register for signal <pause>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <PauseController> synthesized.
+
+
+Synthesizing Unit <Mode1Processor>.
+    Related source file is "Mode1Processor.v".
+    Found 8-bit register for signal <leds>.
+    Found 4-bit register for signal <counter>.
+    Found 4-bit addsub for signal <counter$share0000>.
+    Found 1-bit register for signal <direction>.
+    Summary:
+	inferred  13 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <Mode1Processor> synthesized.
+
+
+Synthesizing Unit <Mode2Processor>.
+    Related source file is "Mode2Processor.v".
+    Found 8-bit register for signal <leds>.
+    Found 3-bit up counter for signal <shift_count>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <Mode2Processor> synthesized.
+
+
+Synthesizing Unit <Mode3Processor>.
+    Related source file is "Mode3Processor.v".
+    Found 8-bit register for signal <leds>.
+    Found 4-bit up counter for signal <counter>.
+    Found 4-bit comparator less for signal <counter$cmp_lt0000> created at line 41.
+    Found 1-bit register for signal <state>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   9 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <Mode3Processor> synthesized.
+
+
+Synthesizing Unit <Mode4Processor>.
+    Related source file is "Mode4Processor.v".
+    Found 8-bit register for signal <leds>.
+    Found 3-bit up counter for signal <counter>.
+    Found 3-bit comparator less for signal <leds_7$cmp_lt0000> created at line 38.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <Mode4Processor> synthesized.
+
+
+Synthesizing Unit <ModeProcessors>.
+    Related source file is "ModeProcessors.v".
+    Found 8-bit 4-to-1 multiplexer for signal <leds>.
+    Summary:
+	inferred   8 Multiplexer(s).
+Unit <ModeProcessors> synthesized.
+
+
+Synthesizing Unit <LEDController>.
+    Related source file is "LEDController.v".
+Unit <LEDController> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 4-bit addsub                                          : 1
+# Counters                                             : 4
+ 3-bit up counter                                      : 2
+ 31-bit up counter                                     : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 30
+ 1-bit register                                        : 27
+ 2-bit register                                        : 1
+ 4-bit register                                        : 1
+ 8-bit register                                        : 1
+# Comparators                                          : 2
+ 3-bit comparator less                                 : 1
+ 4-bit comparator less                                 : 1
+# Multiplexers                                         : 1
+ 8-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 4-bit addsub                                          : 1
+# Counters                                             : 3
+ 3-bit up counter                                      : 1
+ 31-bit up counter                                     : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 41
+ Flip-Flops                                            : 41
+# Comparators                                          : 2
+ 3-bit comparator less                                 : 1
+ 4-bit comparator less                                 : 1
+# Multiplexers                                         : 1
+ 8-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <leds_4> in Unit <Mode4Processor> is equivalent to the following FF/Latch, which will be removed : <leds_3> 
+INFO:Xst:2261 - The FF/Latch <leds_5> in Unit <Mode4Processor> is equivalent to the following FF/Latch, which will be removed : <leds_2> 
+INFO:Xst:2261 - The FF/Latch <leds_6> in Unit <Mode4Processor> is equivalent to the following FF/Latch, which will be removed : <leds_1> 
+INFO:Xst:2261 - The FF/Latch <leds_7> in Unit <Mode4Processor> is equivalent to the following FF/Latch, which will be removed : <leds_0> 
+
+Optimizing unit <LEDController> ...
+
+Optimizing unit <Mode1Processor> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block LEDController, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 75
+ Flip-Flops                                            : 75
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : LEDController.ngr
+Top Level Output File Name         : LEDController
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 13
+
+Cell Usage :
+# BELS                             : 217
+#      GND                         : 1
+#      INV                         : 5
+#      LUT1                        : 30
+#      LUT2                        : 38
+#      LUT2_D                      : 2
+#      LUT3                        : 22
+#      LUT4                        : 37
+#      LUT4_D                      : 2
+#      MUXCY                       : 38
+#      MUXF5                       : 10
+#      VCC                         : 1
+#      XORCY                       : 31
+# FlipFlops/Latches                : 75
+#      FDC                         : 34
+#      FDCE                        : 29
+#      FDPE                        : 12
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 12
+#      IBUF                        : 4
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       84  out of   4656     1%  
+ Number of Slice Flip Flops:             73  out of   9312     0%  
+ Number of 4 input LUTs:                136  out of   9312     1%  
+ Number of IOs:                          13
+ Number of bonded IOBs:                  13  out of    232     5%  
+    IOB Flip Flops:                       2
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clki                               | BUFGP                  | 75    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 75    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.992ns (Maximum Frequency: 125.128MHz)
+   Minimum input arrival time before clock: 1.946ns
+   Maximum output required time after clock: 6.517ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clki'
+  Clock period: 7.992ns (frequency: 125.128MHz)
+  Total number of paths / destination ports: 2952 / 113
+-------------------------------------------------------------------------
+Delay:               7.992ns (Levels of Logic = 11)
+  Source:            tick_gen/r_reg_8 (FF)
+  Destination:       mode_proc/mode1/leds_2 (FF)
+  Source Clock:      clki rising
+  Destination Clock: clki rising
+
+  Data Path: tick_gen/r_reg_8 to mode_proc/mode1/leds_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.622  tick_gen/r_reg_8 (tick_gen/r_reg_8)
+     LUT3:I0->O            1   0.704   0.000  tick_gen/tick_wg_lut<0> (tick_gen/tick_wg_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  tick_gen/tick_wg_cy<0> (tick_gen/tick_wg_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  tick_gen/tick_wg_cy<1> (tick_gen/tick_wg_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  tick_gen/tick_wg_cy<2> (tick_gen/tick_wg_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  tick_gen/tick_wg_cy<3> (tick_gen/tick_wg_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  tick_gen/tick_wg_cy<4> (tick_gen/tick_wg_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  tick_gen/tick_wg_cy<5> (tick_gen/tick_wg_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  tick_gen/tick_wg_cy<6> (tick_gen/tick_wg_cy<6>)
+     MUXCY:CI->O          37   0.459   1.343  tick_gen/tick_wg_cy<7> (tick)
+     LUT2:I1->O           18   0.704   1.072  mode_proc/mode3/state_not000111_2 (mode_proc/mode3/state_not000111_1)
+     LUT4:I3->O            1   0.704   0.420  mode_proc/mode1/leds_3_not00011 (mode_proc/mode1/leds_3_not0001)
+     FDCE:CE                   0.555          mode_proc/mode1/leds_3
+    ----------------------------------------
+    Total                      7.992ns (4.535ns logic, 3.457ns route)
+                                       (56.7% logic, 43.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clki'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              1.946ns (Levels of Logic = 1)
+  Source:            sw_mode1 (PAD)
+  Destination:       mode_sel/mode_1 (FF)
+  Destination Clock: clki rising
+
+  Data Path: sw_mode1 to mode_sel/mode_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.420  sw_mode1_IBUF (sw_mode1_IBUF)
+     FDC:D                     0.308          mode_sel/mode_1
+    ----------------------------------------
+    Total                      1.946ns (1.526ns logic, 0.420ns route)
+                                       (78.4% logic, 21.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clki'
+  Total number of paths / destination ports: 56 / 8
+-------------------------------------------------------------------------
+Offset:              6.517ns (Levels of Logic = 3)
+  Source:            mode_sel/mode_0 (FF)
+  Destination:       leds<7> (PAD)
+  Source Clock:      clki rising
+
+  Data Path: mode_sel/mode_0 to leds<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             16   0.591   1.209  mode_sel/mode_0 (mode_sel/mode_0)
+     LUT3:I0->O            1   0.704   0.000  mode_proc/Mmux_leds_3 (mode_proc/Mmux_leds_3)
+     MUXF5:I1->O           1   0.321   0.420  mode_proc/Mmux_leds_2_f5 (leds_0_OBUF)
+     OBUF:I->O                 3.272          leds_0_OBUF (leds<0>)
+    ----------------------------------------
+    Total                      6.517ns (4.888ns logic, 1.629ns route)
+                                       (75.0% logic, 25.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 1.06 secs
+ 
+--> 
+
+
+Total memory usage is 610376 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
+

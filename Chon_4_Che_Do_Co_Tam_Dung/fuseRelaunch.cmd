@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/Working_Space/Backup/Chon_4_Che_Do_Co_Tam_Dung/Testbench_Mode4Processor_isim_beh.exe" -prj "/home/ise/Working_Space/Backup/Chon_4_Che_Do_Co_Tam_Dung/Testbench_Mode4Processor_beh.prj" "work.Testbench_Mode4Processor" "work.glbl" 

@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/Working_Space/Backup/Chon_4_Che_Do_Co_Tam_Dung/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/Working_Space/Backup/Chon_4_Che_Do_Co_Tam_Dung/xst"
+elaborate
+-ifn Mode2Processor.prj
+-ifmt mixed

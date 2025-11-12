@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Fri Oct 17 01:05:49 2025
+# Process ID: 3605
+# Log file: /home/ise/Working_Space/Backup/Chon_4_Che_Do_Co_Tam_Dung/planAhead_run_2/planAhead.log
+# Journal file: /home/ise/Working_Space/Backup/Chon_4_Che_Do_Co_Tam_Dung/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/ise/Working_Space/Backup/Chon_4_Che_Do_Co_Tam_Dung/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin C9 [get_ports clk_50M]
+endgroup
+startgroup
+set_property package_pin V4 [get_ports reset]
+endgroup
+set_property package_pin "" [get_ports [list  sw_mode0]]
+startgroup
+set_property package_pin L14 [get_ports sw_mode1]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports sw_mode0]
+endgroup
+startgroup
+set_property package_pin H18 [get_ports sw_pause]
+endgroup
+set_property iostandard LVTTL [get_ports [list sw_pause]]
+set_property iostandard LVTTL [get_ports [list sw_mode1]]
+set_property iostandard LVTTL [get_ports [list sw_mode0]]
+set_property pulltype PULLUP [get_ports [list sw_mode0]]
+set_property pulltype PULLUP [get_ports [list sw_mode1]]
+set_property pulltype PULLUP [get_ports [list sw_pause]]
+set_property pulltype PULLDOWN [get_ports [list reset]]
+startgroup
+set_property package_pin F8 [get_ports clk]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list clk]]
+startgroup
+set_property package_pin C7 [get_ports dio]
+endgroup
+startgroup
+set_property package_pin E8 [get_ports stb]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list dio]]
+set_property iostandard LVCMOS33 [get_ports [list stb]]
+set_property iostandard LVTTL [get_ports [list reset]]
+set_property iostandard LVCMOS33 [get_ports [list clk_50M]]
+save_constraints

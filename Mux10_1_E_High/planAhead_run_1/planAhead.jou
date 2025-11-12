@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Wed Sep 10 13:29:57 2025
+# Process ID: 4444
+# Log file: /home/ise/Working_Space/Week3/Mux10_1_E_High/planAhead_run_1/planAhead.log
+# Journal file: /home/ise/Working_Space/Week3/Mux10_1_E_High/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/ise/Working_Space/Week3/Mux10_1_E_High/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS33 [get_ports [list {S[3]} {S[2]} {S[1]} {S[0]}]]
+set_property iostandard LVTTL [get_ports [list {S[3]} {S[2]} {S[1]} {S[0]}]]
+set_property iostandard LVTTL [get_ports [list E]]
+set_property iostandard LVTTL [get_ports [list Y]]
+set_property iostandard LVTTL [get_ports [list {I[9]} {I[8]} {I[7]} {I[6]} {I[5]} {I[4]} {I[3]} {I[2]} {I[1]} {I[0]}]]
+set_property pulltype PULLDOWN [get_ports [list E]]
+startgroup
+set_property package_pin V4 [get_ports E]
+endgroup
+set_property pulltype PULLUP [get_ports [list {S[3]} {S[2]} {S[1]} {S[0]}]]
+set_property package_pin "" [get_ports [list  {S[2]}]]
+startgroup
+set_property package_pin N17 [get_ports {S[3]}]
+endgroup
+startgroup
+set_property package_pin H18 [get_ports {S[2]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {S[1]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {S[0]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports Y]
+endgroup
+set_property pulltype PULLDOWN [get_ports [list {I[9]} {I[8]} {I[7]} {I[6]} {I[5]} {I[4]} {I[3]} {I[2]} {I[1]} {I[0]}]]
+startgroup
+set_property package_pin D18 [get_ports {I[0]}]
+endgroup
+startgroup
+set_property package_pin H13 [get_ports {I[4]}]
+endgroup
+save_constraints

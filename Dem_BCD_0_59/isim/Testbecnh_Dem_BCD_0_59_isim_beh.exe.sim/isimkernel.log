@@ -1,0 +1,28 @@
+Command line:
+   Testbecnh_Dem_BCD_0_59_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  46850
+
+Sat Oct 11 08:37:33 2025
+
+
+ Elaboration Time: 0.01 sec
+
+ Current Memory Usage: 198.578 Meg
+
+ Total Signals          : 30
+ Total Nets             : 34
+ Total Signal Drivers   : 14
+ Total Blocks           : 5
+ Total Primitive Blocks : 3
+ Total Processes        : 19
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 124
+
+ Total Simulation Time: 0.03 sec
+
+ Current Memory Usage: 276.177 Meg
+
+Sat Oct 11 08:37:43 2025
+

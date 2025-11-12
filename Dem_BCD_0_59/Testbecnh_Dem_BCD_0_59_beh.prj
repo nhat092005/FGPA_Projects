@@ -1,0 +1,4 @@
+verilog work "SynCounter4bit_WithEnable.v"
+verilog work "Dem_BCD_0_59.v"
+verilog work "Testbecnh_Dem_BCD_0_59.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

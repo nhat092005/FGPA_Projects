@@ -1,0 +1,28 @@
+Command line:
+   Testbench_Chon_Xung_Ngo_Ra_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57570
+
+Sun Sep 21 04:36:24 2025
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 198.586 Meg
+
+ Total Signals          : 35
+ Total Nets             : 118
+ Total Signal Drivers   : 16
+ Total Blocks           : 8
+ Total Primitive Blocks : 5
+ Total Processes        : 26
+ Total Traceable Variables  : 30
+ Total Scalar Nets and Variables : 520
+
+ Total Simulation Time: 3207.35 sec
+
+ Current Memory Usage: 276.185 Meg
+
+Sun Sep 21 07:28:49 2025
+

@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Sun Sep 21 07:28:58 2025
+# Process ID: 4095
+# Log file: /home/ise/Working_Space/Week5/Chon_Xung_Ngo_Ra/planAhead_run_1/planAhead.log
+# Journal file: /home/ise/Working_Space/Week5/Chon_Xung_Ngo_Ra/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/ise/Working_Space/Week5/Chon_Xung_Ngo_Ra/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin C9 [get_ports clki]
+endgroup
+set_property iostandard LVTTL [get_ports [list clki]]
+set_property iostandard LVCMOS25 [get_ports [list clko]]
+set_property iostandard LVTTL [get_ports [list clko]]
+set_property iostandard LVTTL [get_ports [list E]]
+set_property iostandard LVTTL [get_ports [list {S[1]} {S[0]}]]
+startgroup
+set_property package_pin L14 [get_ports {S[1]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {S[0]}]
+endgroup
+startgroup
+set_property package_pin H18 [get_ports E]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports clko]
+endgroup
+set_property pulltype PULLUP [get_ports [list {S[1]} {S[0]}]]
+set_property pulltype PULLUP [get_ports [list E]]
+save_constraints

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week5/Chon_Xung_Ngo_Ra/ClockDivision.xst" -ofn "/home/ise/Working_Space/Week5/Chon_Xung_Ngo_Ra/ClockDivision.syr" 

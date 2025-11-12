@@ -1,0 +1,4 @@
+verilog work "clockDiv.v"
+verilog work "Mux4_1.v"
+verilog work "ClockDivision.v"
+verilog work "Chon_Xung_Ngo_Ra.v"

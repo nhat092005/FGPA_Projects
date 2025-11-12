@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/Working_Space/Week5/Chon_Xung_Ngo_Ra/Testbench_Chon_Xung_Ngo_Ra_isim_beh.exe" -prj "/home/ise/Working_Space/Week5/Chon_Xung_Ngo_Ra/Testbench_Chon_Xung_Ngo_Ra_beh.prj" "work.Testbench_Chon_Xung_Ngo_Ra" "work.glbl" 

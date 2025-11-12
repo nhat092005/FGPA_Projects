@@ -1,0 +1,28 @@
+Command line:
+   Testbench_LED_Pattern_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  47027
+
+Sun Oct 12 09:13:04 2025
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 198.59 Meg
+
+ Total Signals          : 17
+ Total Nets             : 24
+ Total Signal Drivers   : 9
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 15
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 417
+
+ Total Simulation Time: 0.04 sec
+
+ Current Memory Usage: 276.189 Meg
+
+Sun Oct 12 09:17:27 2025
+

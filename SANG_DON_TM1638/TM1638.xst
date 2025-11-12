@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/Working_Space/Week8/SANG_DON_TM1638/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/Working_Space/Week8/SANG_DON_TM1638/xst"
+elaborate
+-ifn TM1638.prj
+-ifmt mixed

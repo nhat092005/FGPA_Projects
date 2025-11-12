@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/Working_Space/Week8/SANG_DON_TM1638/Testbench_LED_Pattern_isim_beh.exe" -prj "/home/ise/Working_Space/Week8/SANG_DON_TM1638/Testbench_LED_Pattern_beh.prj" "work.Testbench_LED_Pattern" "work.glbl" 

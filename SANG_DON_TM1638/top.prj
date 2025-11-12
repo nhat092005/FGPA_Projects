@@ -1,0 +1,6 @@
+verilog work "TickGen.v"
+verilog work "LED_Pattern.v"
+verilog work "TM1638.v"
+verilog work "LED_Pattern_05Hz.v"
+verilog work "ClockDiv.v"
+verilog work "top.v"

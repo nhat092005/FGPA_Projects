@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week8/SANG_DON_TM1638/LED_Pattern.xst" -ofn "/home/ise/Working_Space/Week8/SANG_DON_TM1638/LED_Pattern.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week8/SANG_DON_TM1638/LED_Pattern.xst" -ofn "/home/ise/Working_Space/Week8/SANG_DON_TM1638/LED_Pattern.syr" 

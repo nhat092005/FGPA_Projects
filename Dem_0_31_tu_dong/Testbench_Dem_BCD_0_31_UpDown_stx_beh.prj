@@ -1,0 +1,4 @@
+verilog isim_temp "SynCounter4bit_UpDown.v"
+verilog isim_temp "Dem_BCD_0_31_UpDown.v"
+verilog isim_temp "Testbench_Dem_BCD_0_31_UpDown.v"
+verilog isim_temp "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

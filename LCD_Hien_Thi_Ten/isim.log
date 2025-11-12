@@ -1,0 +1,68 @@
+ISim log file
+Running: /home/ise/Working_Space/Week8/LCD_Hien_Thi_Ten/Testbench_LCD_Display_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/Working_Space/Week8/LCD_Hien_Thi_Ten/Testbench_LCD_Display_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+WARNING: File "/home/ise/Working_Space/Week8/LCD_Hien_Thi_Ten/LCD_Display.v" Line 27.  For instance uut/lcd/, width 257 of formal port chars is not equal to width 256 of actual variable chars. 
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+===================
+  QUANG MINH NHAT
+ UYEN QUOC HUNG  
+===================
+# step
+Stopped at time : 1010 ns : File "/home/ise/Working_Space/Week8/LCD_Hien_Thi_Ten/Testbench_LCD_Display.v" Line 69
+# step
+Stopped at time : 1010 ns : File "/home/ise/Working_Space/Week8/LCD_Hien_Thi_Ten/Testbench_LCD_Display.v" Line 69
+# run 1.00us
+
+===================
+   LE QUANG MINH 
+   NGUYEN QUOC HU
+===================
+# run 1.00us
+
+===================
+       LE QUANG M
+       NGUYEN QUO
+===================
+# run 1.00us
+
+===================
+           LE QUA
+           NGUYEN
+===================
+# run 1.00us
+
+===================
+               LE
+               NG
+===================
+# run 1.00us
+
+===================
+ NHAT            
+ NG              
+===================
+# run 1.00us
+
+===================
+ INH NHAT        
+ C HUNG          
+===================
+# run 1.00us
+
+===================
+ NG MINH NHAT    
+  QUOC HUNG      
+===================
+# exit 0

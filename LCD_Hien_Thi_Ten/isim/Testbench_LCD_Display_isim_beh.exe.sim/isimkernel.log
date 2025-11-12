@@ -1,0 +1,28 @@
+Command line:
+   Testbench_LCD_Display_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57422
+
+Sun Oct 12 12:55:00 2025
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 199.025 Meg
+
+ Total Signals          : 32
+ Total Nets             : 535
+ Total Signal Drivers   : 79
+ Total Blocks           : 5
+ Total Primitive Blocks : 3
+ Total Processes        : 87
+ Total Traceable Variables  : 47
+ Total Scalar Nets and Variables : 2585
+
+ Total Simulation Time: 0.04 sec
+
+ Current Memory Usage: 276.623 Meg
+
+Sun Oct 12 12:58:30 2025
+

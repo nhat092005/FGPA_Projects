@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/Working_Space/Week8/LCD_Hien_Thi_Ten/Testbench_LCD_Display_isim_beh.exe" -prj "/home/ise/Working_Space/Week8/LCD_Hien_Thi_Ten/Testbench_LCD_Display_beh.prj" "work.Testbench_LCD_Display" "work.glbl" 

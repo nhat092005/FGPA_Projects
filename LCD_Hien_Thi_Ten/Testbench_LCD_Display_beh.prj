@@ -1,0 +1,4 @@
+verilog work "LCD.v"
+verilog work "LCD_Display.v"
+verilog work "Testbench_LCD_Display.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

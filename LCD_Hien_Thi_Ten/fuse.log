@@ -1,0 +1,24 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /home/ise/Working_Space/Week8/LCD_Hien_Thi_Ten/Testbench_LCD_Display_isim_beh.exe -prj /home/ise/Working_Space/Week8/LCD_Hien_Thi_Ten/Testbench_LCD_Display_beh.prj work.Testbench_LCD_Display work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/ise/Working_Space/Week8/LCD_Hien_Thi_Ten/LCD.v" into library work
+Analyzing Verilog file "/home/ise/Working_Space/Week8/LCD_Hien_Thi_Ten/LCD_Display.v" into library work
+Analyzing Verilog file "/home/ise/Working_Space/Week8/LCD_Hien_Thi_Ten/Testbench_LCD_Display.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "/home/ise/Working_Space/Week8/LCD_Hien_Thi_Ten/LCD_Display.v" Line 61: Size mismatch in connection of port <chars>. Formal port size is 257-bit while actual signal size is 256-bit.
+Completed static elaboration
+Fuse Memory Usage: 94960 KB
+Fuse CPU Usage: 1000 ms
+Compiling module LCD
+Compiling module LCD_Display
+Compiling module Testbench_LCD_Display
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 4 Verilog Units
+Built simulation executable /home/ise/Working_Space/Week8/LCD_Hien_Thi_Ten/Testbench_LCD_Display_isim_beh.exe
+Fuse Memory Usage: 98552 KB
+Fuse CPU Usage: 1010 ms
+GCC CPU Usage: 300 ms

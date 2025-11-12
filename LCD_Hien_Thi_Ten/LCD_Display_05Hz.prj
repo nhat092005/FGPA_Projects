@@ -1,0 +1,4 @@
+verilog work "LCD.v"
+verilog work "TickGen.v"
+verilog work "LCD_Display.v"
+verilog work "LCD_Display_05Hz.v"

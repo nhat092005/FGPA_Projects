@@ -1,0 +1,28 @@
+Command line:
+   Testbench_SynCounter4bit_Down_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53057
+
+Fri Sep 26 03:34:41 2025
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 198.582 Meg
+
+ Total Signals          : 19
+ Total Nets             : 24
+ Total Signal Drivers   : 10
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 15
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 111
+
+ Total Simulation Time: 0.03 sec
+
+ Current Memory Usage: 276.181 Meg
+
+Fri Sep 26 03:39:43 2025
+

@@ -1,0 +1,65 @@
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.xst" -ofn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.xst" -ofn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Dem_9_0.ucf -p xc3s500e-fg320-4 Dem_9_0.ngc Dem_9_0.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Dem_9_0_map.ncd Dem_9_0.ngd Dem_9_0.pcf 
+par -w -intstyle ise -ol high -t 1 Dem_9_0_map.ncd Dem_9_0.ncd Dem_9_0.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Dem_9_0.twx Dem_9_0.ncd -o Dem_9_0.twr Dem_9_0.pcf -ucf Dem_9_0.ucf 
+bitgen -intstyle ise -f Dem_9_0.ut Dem_9_0.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.xst" -ofn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.xst" -ofn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.xst" -ofn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Dem_9_0.ucf -p xc3s500e-fg320-4 Dem_9_0.ngc Dem_9_0.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Dem_9_0_map.ncd Dem_9_0.ngd Dem_9_0.pcf 
+par -w -intstyle ise -ol high -t 1 Dem_9_0_map.ncd Dem_9_0.ncd Dem_9_0.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Dem_9_0.twx Dem_9_0.ncd -o Dem_9_0.twr Dem_9_0.pcf -ucf Dem_9_0.ucf 
+bitgen -intstyle ise -f Dem_9_0.ut Dem_9_0.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.xst" -ofn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Dem_9_0.ucf -p xc3s500e-fg320-4 Dem_9_0.ngc Dem_9_0.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Dem_9_0_map.ncd Dem_9_0.ngd Dem_9_0.pcf 
+par -w -intstyle ise -ol high -t 1 Dem_9_0_map.ncd Dem_9_0.ncd Dem_9_0.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Dem_9_0.twx Dem_9_0.ncd -o Dem_9_0.twr Dem_9_0.pcf -ucf Dem_9_0.ucf 
+bitgen -intstyle ise -f Dem_9_0.ut Dem_9_0.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.xst" -ofn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Dem_9_0.ucf -p xc3s500e-fg320-4 Dem_9_0.ngc Dem_9_0.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Dem_9_0_map.ncd Dem_9_0.ngd Dem_9_0.pcf 
+par -w -intstyle ise -ol high -t 1 Dem_9_0_map.ncd Dem_9_0.ncd Dem_9_0.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Dem_9_0.twx Dem_9_0.ncd -o Dem_9_0.twr Dem_9_0.pcf -ucf Dem_9_0.ucf 
+bitgen -intstyle ise -f Dem_9_0.ut Dem_9_0.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.xst" -ofn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Dem_9_0.ucf -p xc3s500e-fg320-4 Dem_9_0.ngc Dem_9_0.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Dem_9_0_map.ncd Dem_9_0.ngd Dem_9_0.pcf 
+par -w -intstyle ise -ol high -t 1 Dem_9_0_map.ncd Dem_9_0.ncd Dem_9_0.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Dem_9_0.twx Dem_9_0.ncd -o Dem_9_0.twr Dem_9_0.pcf -ucf Dem_9_0.ucf 
+bitgen -intstyle ise -f Dem_9_0.ut Dem_9_0.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.xst" -ofn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Dem_9_0.ucf -p xc3s500e-fg320-4 Dem_9_0.ngc Dem_9_0.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Dem_9_0_map.ncd Dem_9_0.ngd Dem_9_0.pcf 
+par -w -intstyle ise -ol high -t 1 Dem_9_0_map.ncd Dem_9_0.ncd Dem_9_0.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Dem_9_0.twx Dem_9_0.ncd -o Dem_9_0.twr Dem_9_0.pcf -ucf Dem_9_0.ucf 
+bitgen -intstyle ise -f Dem_9_0.ut Dem_9_0.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.xst" -ofn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Dem_9_0.ucf -p xc3s500e-fg320-4 Dem_9_0.ngc Dem_9_0.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Dem_9_0_map.ncd Dem_9_0.ngd Dem_9_0.pcf 
+par -w -intstyle ise -ol high -t 1 Dem_9_0_map.ncd Dem_9_0.ncd Dem_9_0.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Dem_9_0.twx Dem_9_0.ncd -o Dem_9_0.twr Dem_9_0.pcf -ucf Dem_9_0.ucf 
+bitgen -intstyle ise -f Dem_9_0.ut Dem_9_0.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.xst" -ofn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Dem_9_0.ucf -p xc3s500e-fg320-4 Dem_9_0.ngc Dem_9_0.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Dem_9_0_map.ncd Dem_9_0.ngd Dem_9_0.pcf 
+par -w -intstyle ise -ol high -t 1 Dem_9_0_map.ncd Dem_9_0.ncd Dem_9_0.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Dem_9_0.twx Dem_9_0.ncd -o Dem_9_0.twr Dem_9_0.pcf -ucf Dem_9_0.ucf 
+bitgen -intstyle ise -f Dem_9_0.ut Dem_9_0.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.xst" -ofn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.xst" -ofn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.xst" -ofn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Dem_9_0.ucf -p xc3s500e-fg320-4 Dem_9_0.ngc Dem_9_0.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Dem_9_0_map.ncd Dem_9_0.ngd Dem_9_0.pcf 
+par -w -intstyle ise -ol high -t 1 Dem_9_0_map.ncd Dem_9_0.ncd Dem_9_0.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Dem_9_0.twx Dem_9_0.ncd -o Dem_9_0.twr Dem_9_0.pcf -ucf Dem_9_0.ucf 
+bitgen -intstyle ise -f Dem_9_0.ut Dem_9_0.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.xst" -ofn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.xst" -ofn "/home/ise/Working_Space/Week6/Dem_9_0/Dem_9_0.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Dem_9_0.ucf -p xc3s500e-fg320-4 Dem_9_0.ngc Dem_9_0.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Dem_9_0_map.ncd Dem_9_0.ngd Dem_9_0.pcf 
+par -w -intstyle ise -ol high -t 1 Dem_9_0_map.ncd Dem_9_0.ncd Dem_9_0.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Dem_9_0.twx Dem_9_0.ncd -o Dem_9_0.twr Dem_9_0.pcf -ucf Dem_9_0.ucf 

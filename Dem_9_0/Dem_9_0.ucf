@@ -1,0 +1,22 @@
+
+# PlanAhead Generated IO constraints 
+
+NET "q[3]" IOSTANDARD = LVTTL;
+NET "q[2]" IOSTANDARD = LVTTL;
+NET "q[1]" IOSTANDARD = LVTTL;
+NET "q[0]" IOSTANDARD = LVTTL;
+NET "clk" IOSTANDARD = LVTTL;
+NET "reset" IOSTANDARD = LVTTL;
+
+# PlanAhead Generated physical constraints 
+
+NET "reset" LOC = L13;
+NET "clk" LOC = C9;
+NET "q[3]" LOC = F11;
+NET "q[2]" LOC = E11;
+NET "q[1]" LOC = E12;
+NET "q[0]" LOC = F12;
+
+# PlanAhead Generated IO constraints 
+
+NET "reset" PULLUP;

@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/Working_Space/Decoder2_4/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/Working_Space/Decoder2_4/xst"
+elaborate
+-ifn Decoder2_4_if.prj
+-ifmt mixed

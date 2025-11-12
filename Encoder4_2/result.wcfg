@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/Working_Space/Encoder2_4/Testbench_Encoder2_4_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Testbench_Encoder2_4" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="/Testbench_Encoder2_4/w" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">w[3:0]</obj_property>
+      <obj_property name="ObjectShortName">w[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Testbench_Encoder2_4/y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y[1:0]</obj_property>
+      <obj_property name="ObjectShortName">y[1:0]</obj_property>
+   </wvobject>
+</wave_config>

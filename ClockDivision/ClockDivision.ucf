@@ -1,0 +1,17 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "clki[0]" LOC = C9;
+
+# PlanAhead Generated IO constraints 
+
+NET "clki[0]" IOSTANDARD = LVTTL;
+NET "clko[2]" IOSTANDARD = LVTTL;
+NET "clko[1]" IOSTANDARD = LVTTL;
+NET "clko[0]" IOSTANDARD = LVTTL;
+
+# PlanAhead Generated physical constraints 
+
+NET "clko[2]" LOC = E11;
+NET "clko[1]" LOC = E12;
+NET "clko[0]" LOC = F12;

@@ -1,0 +1,28 @@
+Command line:
+   Testbench_Dem_BCD_0_31_UpDown_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58112
+
+Thu Oct 16 17:14:57 2025
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 198.586 Meg
+
+ Total Signals          : 36
+ Total Nets             : 39
+ Total Signal Drivers   : 19
+ Total Blocks           : 5
+ Total Primitive Blocks : 3
+ Total Processes        : 26
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 131
+
+ Total Simulation Time: 0.02 sec
+
+ Current Memory Usage: 276.185 Meg
+
+Thu Oct 16 17:15:33 2025
+

@@ -1,0 +1,11 @@
+[Inputs]
+clk
+reset
+enable
+[Outputs]
+=q1[3:0]=
+=q0[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Dem_BCD_0_31_UpDown
+

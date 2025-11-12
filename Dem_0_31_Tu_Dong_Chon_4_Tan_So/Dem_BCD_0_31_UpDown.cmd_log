@@ -1,0 +1,2 @@
+vhdtdtfi -lib work /home/ise/Working_Space/Backup/Dem_0_31_Tu_Dong_Chon_4_Tan_So/Dem_BCD_0_31_UpDown.v -lang verilog -prj Dem_0_31_Tu_Dong_Chon_4_Tan_So -o Dem_BCD_0_31_UpDown.spl -module Dem_BCD_0_31_UpDown -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Dem_BCD_0_31_UpDown.spl /home/ise/Working_Space/Backup/Dem_0_31_Tu_Dong_Chon_4_Tan_So/Dem_BCD_0_31_UpDown.sym 

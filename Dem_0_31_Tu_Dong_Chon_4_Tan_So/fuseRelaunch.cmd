@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/Working_Space/Backup/Dem_0_31_Tu_Dong_Chon_4_Tan_So/Testbench_Dem_BCD_0_31_UpDown_isim_beh.exe" -prj "/home/ise/Working_Space/Backup/Dem_0_31_Tu_Dong_Chon_4_Tan_So/Testbench_Dem_BCD_0_31_UpDown_beh.prj" "work.Testbench_Dem_BCD_0_31_UpDown" "work.glbl" 

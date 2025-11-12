@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Dem_0_9_AND_9_0/Dem_0_9_AND_9_0_Single.xst" -ofn "/home/ise/Working_Space/Week6/Dem_0_9_AND_9_0/Dem_0_9_AND_9_0_Single.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Dem_0_9_AND_9_0/Dem_0_9_AND_9_0_Single.xst" -ofn "/home/ise/Working_Space/Week6/Dem_0_9_AND_9_0/Dem_0_9_AND_9_0_Single.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Dem_0_9_AND_9_0/Dem_0_9_AND_9_0_Single.xst" -ofn "/home/ise/Working_Space/Week6/Dem_0_9_AND_9_0/Dem_0_9_AND_9_0_Single.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Dem_0_9_AND_9_0/Dem_0_9_AND_9_0_Single.xst" -ofn "/home/ise/Working_Space/Week6/Dem_0_9_AND_9_0/Dem_0_9_AND_9_0_Single.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Dem_0_9_AND_9_0_Single.ngc Dem_0_9_AND_9_0_Single.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Dem_0_9_AND_9_0_Single_map.ncd Dem_0_9_AND_9_0_Single.ngd Dem_0_9_AND_9_0_Single.pcf 
+par -w -intstyle ise -ol high -t 1 Dem_0_9_AND_9_0_Single_map.ncd Dem_0_9_AND_9_0_Single.ncd Dem_0_9_AND_9_0_Single.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Dem_0_9_AND_9_0_Single.twx Dem_0_9_AND_9_0_Single.ncd -o Dem_0_9_AND_9_0_Single.twr Dem_0_9_AND_9_0_Single.pcf 
+bitgen -intstyle ise -f Dem_0_9_AND_9_0_Single.ut Dem_0_9_AND_9_0_Single.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Dem_0_9_AND_9_0/Dem_0_9_AND_9_0_Single.xst" -ofn "/home/ise/Working_Space/Week6/Dem_0_9_AND_9_0/Dem_0_9_AND_9_0_Single.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Dem_0_9_AND_9_0_Single.ucf -p xc3s500e-fg320-4 Dem_0_9_AND_9_0_Single.ngc Dem_0_9_AND_9_0_Single.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Dem_0_9_AND_9_0_Single_map.ncd Dem_0_9_AND_9_0_Single.ngd Dem_0_9_AND_9_0_Single.pcf 
+par -w -intstyle ise -ol high -t 1 Dem_0_9_AND_9_0_Single_map.ncd Dem_0_9_AND_9_0_Single.ncd Dem_0_9_AND_9_0_Single.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Dem_0_9_AND_9_0_Single.twx Dem_0_9_AND_9_0_Single.ncd -o Dem_0_9_AND_9_0_Single.twr Dem_0_9_AND_9_0_Single.pcf -ucf Dem_0_9_AND_9_0_Single.ucf 
+bitgen -intstyle ise -f Dem_0_9_AND_9_0_Single.ut Dem_0_9_AND_9_0_Single.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Dem_0_9_AND_9_0/Dem_0_9_AND_9_0_Single.xst" -ofn "/home/ise/Working_Space/Week6/Dem_0_9_AND_9_0/Dem_0_9_AND_9_0_Single.syr" 

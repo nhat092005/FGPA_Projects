@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "/home/ise/Working_Space/Chapter_2/Demux1_8/Demux1_8.xst" -ofn "/home/ise/Working_Space/Chapter_2/Demux1_8/Demux1_8.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Chapter_2/Demux1_8/Demux1_8.xst" -ofn "/home/ise/Working_Space/Chapter_2/Demux1_8/Demux1_8.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Chapter_2/Demux1_8/Demux1_8.xst" -ofn "/home/ise/Working_Space/Chapter_2/Demux1_8/Demux1_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Demux1_8.ngc Demux1_8.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Demux1_8_map.ncd Demux1_8.ngd Demux1_8.pcf 
+par -w -intstyle ise -ol high -t 1 Demux1_8_map.ncd Demux1_8.ncd Demux1_8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Demux1_8.twx Demux1_8.ncd -o Demux1_8.twr Demux1_8.pcf 
+bitgen -intstyle ise -f Demux1_8.ut Demux1_8.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Chapter_2/Demux1_8/Demux1_8.xst" -ofn "/home/ise/Working_Space/Chapter_2/Demux1_8/Demux1_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Demux1_8.ngc Demux1_8.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Demux1_8_map.ncd Demux1_8.ngd Demux1_8.pcf 
+par -w -intstyle ise -ol high -t 1 Demux1_8_map.ncd Demux1_8.ncd Demux1_8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Demux1_8.twx Demux1_8.ncd -o Demux1_8.twr Demux1_8.pcf 
+bitgen -intstyle ise -f Demux1_8.ut Demux1_8.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Chapter_2/Demux1_8/Demux1_8.xst" -ofn "/home/ise/Working_Space/Chapter_2/Demux1_8/Demux1_8.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Chapter_2/Demux1_8/Demux1_8.xst" -ofn "/home/ise/Working_Space/Chapter_2/Demux1_8/Demux1_8.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Chapter_2/Demux1_8/Demux1_8.xst" -ofn "/home/ise/Working_Space/Chapter_2/Demux1_8/Demux1_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Demux1_8.ucf -p xc3s500e-fg320-4 Demux1_8.ngc Demux1_8.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Demux1_8_map.ncd Demux1_8.ngd Demux1_8.pcf 
+par -w -intstyle ise -ol high -t 1 Demux1_8_map.ncd Demux1_8.ncd Demux1_8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Demux1_8.twx Demux1_8.ncd -o Demux1_8.twr Demux1_8.pcf -ucf Demux1_8.ucf 
+bitgen -intstyle ise -f Demux1_8.ut Demux1_8.ncd 

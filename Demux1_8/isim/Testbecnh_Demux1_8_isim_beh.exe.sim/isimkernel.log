@@ -1,0 +1,28 @@
+Command line:
+   Testbecnh_Demux1_8_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  40302
+
+Fri Sep 12 01:26:04 2025
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 198.582 Meg
+
+ Total Signals          : 18
+ Total Nets             : 26
+ Total Signal Drivers   : 9
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 13
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 111
+
+ Total Simulation Time: 0.04 sec
+
+ Current Memory Usage: 276.181 Meg
+
+Fri Sep 12 01:35:11 2025
+

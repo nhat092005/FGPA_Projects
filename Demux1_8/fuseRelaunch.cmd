@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/Working_Space/Chapter_2/Demux1_8/Testbench_Demux1_8_isim_beh.exe" -prj "/home/ise/Working_Space/Chapter_2/Demux1_8/Testbench_Demux1_8_beh.prj" "work.Testbench_Demux1_8" "work.glbl" 

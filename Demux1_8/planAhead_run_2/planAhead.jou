@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Fri Sep 12 02:23:49 2025
+# Process ID: 5356
+# Log file: /home/ise/Working_Space/Week3/Demux1_8/planAhead_run_2/planAhead.log
+# Journal file: /home/ise/Working_Space/Week3/Demux1_8/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/ise/Working_Space/Week3/Demux1_8/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property pulltype PULLDOWN [get_ports [list I]]
+save_constraints

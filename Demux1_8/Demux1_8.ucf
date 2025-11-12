@@ -1,0 +1,43 @@
+
+# PlanAhead Generated IO constraints 
+
+NET "i" IOSTANDARD = LVTTL;
+NET "s[2]" IOSTANDARD = LVTTL;
+NET "s[1]" IOSTANDARD = LVTTL;
+NET "s[0]" IOSTANDARD = LVTTL;
+NET "y[7]" IOSTANDARD = LVTTL;
+NET "y[6]" IOSTANDARD = LVTTL;
+NET "y[5]" IOSTANDARD = LVTTL;
+NET "y[4]" IOSTANDARD = LVTTL;
+NET "y[3]" IOSTANDARD = LVTTL;
+NET "y[2]" IOSTANDARD = LVTTL;
+NET "y[1]" IOSTANDARD = LVTTL;
+NET "y[0]" IOSTANDARD = LVTTL;
+
+# PlanAhead Generated physical constraints 
+
+NET "i" LOC = V4;
+
+# PlanAhead Generated IO constraints 
+
+NET "i" PULLDOWN;
+
+# PlanAhead Generated physical constraints 
+
+NET "y[7]" LOC = F9;
+NET "y[6]" LOC = E9;
+NET "y[5]" LOC = D11;
+NET "y[4]" LOC = C11;
+NET "y[3]" LOC = F11;
+NET "y[2]" LOC = E11;
+NET "y[1]" LOC = E12;
+NET "y[0]" LOC = F12;
+NET "s[2]" LOC = H18;
+NET "s[1]" LOC = L14;
+NET "s[0]" LOC = L13;
+
+# PlanAhead Generated IO constraints 
+
+NET "s[2]" PULLUP;
+NET "s[1]" PULLUP;
+NET "s[0]" PULLUP;

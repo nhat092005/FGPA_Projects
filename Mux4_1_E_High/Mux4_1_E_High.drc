@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue Sep  9 06:52:44 2025
+
+drc -z Mux4_1_E_High.ncd Mux4_1_E_High.pcf
+
+DRC detected 0 errors and 0 warnings.

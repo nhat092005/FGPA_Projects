@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week3/Mux4_1_E_High/Mux4_1_E_High.xst" -ofn "/home/ise/Working_Space/Week3/Mux4_1_E_High/Mux4_1_E_High.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week3/Mux4_1_E_High/Mux4_1_E_High.xst" -ofn "/home/ise/Working_Space/Week3/Mux4_1_E_High/Mux4_1_E_High.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week3/Mux4_1_E_High/Mux4_1_E_High.xst" -ofn "/home/ise/Working_Space/Week3/Mux4_1_E_High/Mux4_1_E_High.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week3/Mux4_1_E_High/Mux4_1_E_High.xst" -ofn "/home/ise/Working_Space/Week3/Mux4_1_E_High/Mux4_1_E_High.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week3/Mux4_1_E_High/Mux4_1_E_High.xst" -ofn "/home/ise/Working_Space/Week3/Mux4_1_E_High/Mux4_1_E_High.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Mux4_1_E_High.ucf -p xc3s500e-fg320-4 Mux4_1_E_High.ngc Mux4_1_E_High.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Mux4_1_E_High_map.ncd Mux4_1_E_High.ngd Mux4_1_E_High.pcf 
+par -w -intstyle ise -ol high -t 1 Mux4_1_E_High_map.ncd Mux4_1_E_High.ncd Mux4_1_E_High.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Mux4_1_E_High.twx Mux4_1_E_High.ncd -o Mux4_1_E_High.twr Mux4_1_E_High.pcf -ucf Mux4_1_E_High.ucf 
+bitgen -intstyle ise -f Mux4_1_E_High.ut Mux4_1_E_High.ncd 

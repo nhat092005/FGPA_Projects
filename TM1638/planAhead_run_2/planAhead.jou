@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Fri Oct 10 03:43:19 2025
+# Process ID: 6996
+# Log file: /home/ise/Working_Space/Week8/TM1638/planAhead_run_2/planAhead.log
+# Journal file: /home/ise/Working_Space/Week8/TM1638/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/ise/Working_Space/Week8/TM1638/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin V4 [get_ports reset]
+endgroup
+set_property iostandard LVTTL [get_ports [list reset]]
+set_property pulltype PULLDOWN [get_ports [list reset]]
+save_constraints

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work /home/ise/Working_Space/Week8/TM1638/TickGen.v -lang verilog -prj TM1638 -o TickGen.spl -module TickGen -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e TickGen.spl /home/ise/Working_Space/Week8/TM1638/TickGen.sym 

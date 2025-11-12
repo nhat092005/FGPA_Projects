@@ -1,0 +1,7 @@
+verilog work "SynCounter4bit_WithEnable.v"
+verilog work "TickGen.v"
+verilog work "Dem_BCD_0_59.v"
+verilog work "TM1638.v"
+verilog work "Dem_BCD_0_59_05Hz.v"
+verilog work "ClockDiv.v"
+verilog work "top.v"

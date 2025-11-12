@@ -1,0 +1,9 @@
+[Inputs]
+clki
+reset
+[Outputs]
+tick
+[BiDir]
+[ATTRIBUTES]
+VeriModel TickGen
+

@@ -1,0 +1,7 @@
+verilog isim_temp "SynCounter4bit_WithEnable.v"
+verilog isim_temp "TM1638.v"
+verilog isim_temp "Dem_BCD_0_59.v"
+verilog isim_temp "ClockDiv.v"
+verilog isim_temp "top.v"
+verilog isim_temp "Testbench_top.v"
+verilog isim_temp "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

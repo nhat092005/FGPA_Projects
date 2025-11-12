@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Sat Oct 11 08:46:39 2025
+# Process ID: 4568
+# Log file: /home/ise/Working_Space/Week8/TM1638/planAhead_run_3/planAhead.log
+# Journal file: /home/ise/Working_Space/Week8/TM1638/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/ise/Working_Space/Week8/TM1638/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

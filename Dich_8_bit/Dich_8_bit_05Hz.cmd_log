@@ -1,0 +1,32 @@
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week7/Dich_8_bit/Dich_8_bit_05Hz.xst" -ofn "/home/ise/Working_Space/Week7/Dich_8_bit/Dich_8_bit_05Hz.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week7/Dich_8_bit/Dich_8_bit_05Hz.xst" -ofn "/home/ise/Working_Space/Week7/Dich_8_bit/Dich_8_bit_05Hz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Dich_8_bit_05Hz.ngc Dich_8_bit_05Hz.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Dich_8_bit_05Hz_map.ncd Dich_8_bit_05Hz.ngd Dich_8_bit_05Hz.pcf 
+par -w -intstyle ise -ol high -t 1 Dich_8_bit_05Hz_map.ncd Dich_8_bit_05Hz.ncd Dich_8_bit_05Hz.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Dich_8_bit_05Hz.twx Dich_8_bit_05Hz.ncd -o Dich_8_bit_05Hz.twr Dich_8_bit_05Hz.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Dich_8_bit_05Hz.ucf -p xc3s500e-fg320-4 Dich_8_bit_05Hz.ngc Dich_8_bit_05Hz.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Dich_8_bit_05Hz_map.ncd Dich_8_bit_05Hz.ngd Dich_8_bit_05Hz.pcf 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week7/Dich_8_bit/Dich_8_bit_05Hz.xst" -ofn "/home/ise/Working_Space/Week7/Dich_8_bit/Dich_8_bit_05Hz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Dich_8_bit_05Hz.ucf -p xc3s500e-fg320-4 Dich_8_bit_05Hz.ngc Dich_8_bit_05Hz.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Dich_8_bit_05Hz_map.ncd Dich_8_bit_05Hz.ngd Dich_8_bit_05Hz.pcf 
+par -w -intstyle ise -ol high -t 1 Dich_8_bit_05Hz_map.ncd Dich_8_bit_05Hz.ncd Dich_8_bit_05Hz.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Dich_8_bit_05Hz.twx Dich_8_bit_05Hz.ncd -o Dich_8_bit_05Hz.twr Dich_8_bit_05Hz.pcf -ucf Dich_8_bit_05Hz.ucf 
+bitgen -intstyle ise -f Dich_8_bit_05Hz.ut Dich_8_bit_05Hz.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week7/Dich_8_bit/Dich_8_bit_05Hz.xst" -ofn "/home/ise/Working_Space/Week7/Dich_8_bit/Dich_8_bit_05Hz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Dich_8_bit_05Hz.ucf -p xc3s500e-fg320-4 Dich_8_bit_05Hz.ngc Dich_8_bit_05Hz.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Dich_8_bit_05Hz_map.ncd Dich_8_bit_05Hz.ngd Dich_8_bit_05Hz.pcf 
+par -w -intstyle ise -ol high -t 1 Dich_8_bit_05Hz_map.ncd Dich_8_bit_05Hz.ncd Dich_8_bit_05Hz.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Dich_8_bit_05Hz.twx Dich_8_bit_05Hz.ncd -o Dich_8_bit_05Hz.twr Dich_8_bit_05Hz.pcf -ucf Dich_8_bit_05Hz.ucf 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week7/Dich_8_bit/Dich_8_bit_05Hz.xst" -ofn "/home/ise/Working_Space/Week7/Dich_8_bit/Dich_8_bit_05Hz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Dich_8_bit_05Hz.ucf -p xc3s500e-fg320-4 Dich_8_bit_05Hz.ngc Dich_8_bit_05Hz.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Dich_8_bit_05Hz_map.ncd Dich_8_bit_05Hz.ngd Dich_8_bit_05Hz.pcf 
+par -w -intstyle ise -ol high -t 1 Dich_8_bit_05Hz_map.ncd Dich_8_bit_05Hz.ncd Dich_8_bit_05Hz.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Dich_8_bit_05Hz.twx Dich_8_bit_05Hz.ncd -o Dich_8_bit_05Hz.twr Dich_8_bit_05Hz.pcf -ucf Dich_8_bit_05Hz.ucf 
+bitgen -intstyle ise -f Dich_8_bit_05Hz.ut Dich_8_bit_05Hz.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week7/Dich_8_bit/Dich_8_bit_05Hz.xst" -ofn "/home/ise/Working_Space/Week7/Dich_8_bit/Dich_8_bit_05Hz.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week7/Dich_8_bit/Dich_8_bit_05Hz.xst" -ofn "/home/ise/Working_Space/Week7/Dich_8_bit/Dich_8_bit_05Hz.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week7/Dich_8_bit/Dich_8_bit_05Hz.xst" -ofn "/home/ise/Working_Space/Week7/Dich_8_bit/Dich_8_bit_05Hz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Dich_8_bit_05Hz.ucf -p xc3s500e-fg320-4 Dich_8_bit_05Hz.ngc Dich_8_bit_05Hz.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Dich_8_bit_05Hz_map.ncd Dich_8_bit_05Hz.ngd Dich_8_bit_05Hz.pcf 
+par -w -intstyle ise -ol high -t 1 Dich_8_bit_05Hz_map.ncd Dich_8_bit_05Hz.ncd Dich_8_bit_05Hz.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Dich_8_bit_05Hz.twx Dich_8_bit_05Hz.ncd -o Dich_8_bit_05Hz.twr Dich_8_bit_05Hz.pcf -ucf Dich_8_bit_05Hz.ucf 

@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/Working_Space/Week7/Dich_8_bit/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/Working_Space/Week7/Dich_8_bit/xst"
+elaborate
+-ifn Dich_8_bit.prj
+-ifmt mixed

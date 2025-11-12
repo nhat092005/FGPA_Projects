@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Fri Oct  3 02:52:47 2025
+
+drc -z Dich_8_bit_05Hz.ncd Dich_8_bit_05Hz.pcf
+
+DRC detected 0 errors and 0 warnings.

@@ -1,0 +1,28 @@
+Command line:
+   Testbench_Dich_8_bit_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  44985
+
+Fri Oct  3 14:29:39 2025
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 198.582 Meg
+
+ Total Signals          : 18
+ Total Nets             : 25
+ Total Signal Drivers   : 10
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 15
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 117
+
+ Total Simulation Time: 0.08 sec
+
+ Current Memory Usage: 276.181 Meg
+
+Fri Oct  3 14:32:56 2025
+

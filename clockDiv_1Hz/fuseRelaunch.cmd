@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/Working_Space/Week5/clockDiv_1Hz/Testbench_clockDiv_1Hz_isim_beh.exe" -prj "/home/ise/Working_Space/Week5/clockDiv_1Hz/Testbench_clockDiv_1Hz_beh.prj" "work.Testbench_clockDiv_1Hz" "work.glbl" 

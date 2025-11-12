@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week5/clockDiv_1Hz/clockDiv_1Hz.xst" -ofn "/home/ise/Working_Space/Week5/clockDiv_1Hz/clockDiv_1Hz.syr" 

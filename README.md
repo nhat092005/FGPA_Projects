@@ -1,54 +1,104 @@
-# 🧠 Verilog_ModelSim_Projects
+# FPGA Projects Collection
 
-This repository contains my Verilog HDL projects simulated using **ModelSim**.  
-Each folder includes a specific logic circuit or digital module, along with its testbench for simulation and verification.
+## Overview
 
----
+This repository contains a comprehensive collection of FPGA design projects developed during my learning journey in digital logic design and hardware description languages. The projects demonstrate practical implementations of fundamental and intermediate-level digital circuits using Verilog HDL.
 
-## 📦 Categories
+## Purpose
 
-### 🔁 Flip-Flops & Sequential Circuits
-- `D_FF_with_PRE_CLR` – D Flip-Flop with preset and clear
-- `Synchronous_Counter_T_FF` – Counter using T Flip-Flops
-- `SynchronousCounter8bit_1`, `SynchronousCounter8bit_2` – 8-bit counters
-- `CounterUpDown8bit` – Up/Down counter
+This repository serves as a portfolio of hands-on FPGA development work, showcasing progressive learning from basic combinational circuits to complex sequential systems. Each project includes complete source code, testbenches, and implementation files targeting Xilinx FPGA devices.
 
-### 📐 Combinational Logic
-- `Mux8to1` – 8-to-1 multiplexer
-- `Demux1to8` – 1-to-8 demultiplexer
-- `Decoder3to8` – 3-to-8 decoder
-- `RippleCarryAdder` – 4-bit adder using full adders
+## Project Categories
 
-### 🧪 Test & Detection
-- `Phat_Hien_1011`, `Phat_Hien_1111` – Sequence detectors
+### Arithmetic Circuits
 
-### 📤 Shift Registers
-- `Shift_SIPO` – Serial-in Parallel-out
-- `SisoShiftRegistor8bit` – 8-bit shift register
+- 4-bit Adder with carry logic
+- Ripple Carry Adder implementations
+- Full Adder modules
 
-### 🚦 FSM-Based Projects
-- `Traffic_Light_Control`, `Traffic_Light_Control_2`, `TrafficLightFSM` – Traffic light systems using FSM
-- `System_Door` – Simple password-locked door FSM
+### Sequential Logic
 
----
+- D Flip-Flops with preset and clear
+- T Flip-Flop based synchronous counters
+- 8-bit Up/Down counters
+- Auto counters with configurable ranges
+- BCD counters
 
-## 🔧 Tools Used
-- Verilog HDL
-- ModelSim (Mentor Graphics)
-- Optional: GTKWave for waveform viewing
+### Shift Registers
 
----
+- Serial In Parallel Out registers
+- Serial In Serial Out 8-bit registers
+- 8-bit bidirectional shift registers
 
-## 🚀 How to Run Simulation
-1. Open ModelSim
-2. Create a new project and add `.v` files inside the folder
-3. Compile and run the testbench
-4. View results via waveform (`vsim` + `add wave *`)
+### Multiplexers and Demultiplexers
 
----
+- 4-to-1 and 8-to-1 multiplexers
+- 1-to-8 demultiplexers
+- 10-to-1 multiplexer with enable
 
-## ✍️ Author
+### Decoders and Encoders
 
-Created by **25Apples** – learning digital systems design through simulation and practice.
+- 2-to-4 and 3-to-8 decoders
+- 4-to-2 priority encoders
+- 7-segment display drivers
 
----
+### Clock Management
+
+- Clock dividers for various frequencies
+- 1Hz clock generation from system clock
+- Programmable frequency selectors
+
+### Finite State Machines
+
+- Pattern detectors for sequences
+- Traffic light controllers with multiple states
+- Door control systems
+- LED animation controllers
+
+### Display Interfaces
+
+- LCD character display drivers
+- 7-segment LED multiplexing
+- TM1638 module interface
+- LED scanning and animation
+
+## Technical Stack
+
+- Hardware Description Language: Verilog
+- Development Environment: Xilinx ISE
+- Simulation Tools: ISim
+- Target Hardware: Xilinx Spartan/Artix FPGAs
+
+## Skills Demonstrated
+
+- Digital circuit design and optimization
+- RTL coding in Verilog
+- Testbench development and simulation
+- Timing analysis and constraints
+- FPGA resource utilization
+- State machine design
+- Interface protocol implementation
+
+## Project Structure
+
+Each project directory contains:
+
+- Verilog source files
+- Testbench files
+- User constraint files
+- Synthesis and implementation reports
+- Bitstream files for hardware deployment
+
+## Learning Outcomes
+
+Through these projects, I have gained practical experience in:
+
+- Translating logic requirements into HDL code
+- Debugging digital designs using simulation
+- Understanding FPGA architecture and constraints
+- Implementing real-world applications on hardware
+- Optimizing designs for area and performance
+
+## Contact
+
+This repository is maintained as part of my professional development in digital design and FPGA engineering.

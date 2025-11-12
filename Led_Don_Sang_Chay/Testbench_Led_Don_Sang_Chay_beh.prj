@@ -1,0 +1,3 @@
+verilog work "Led_Don_Sang_Chay.v"
+verilog work "Testbench_Led_Don_Sang_Chay.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

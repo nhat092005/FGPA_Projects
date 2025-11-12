@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week7/Led_Don_Sang_Chay/Led_Don_Sang_Chay_05Hz.xst" -ofn "/home/ise/Working_Space/Week7/Led_Don_Sang_Chay/Led_Don_Sang_Chay_05Hz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Led_Don_Sang_Chay_05Hz.ngc Led_Don_Sang_Chay_05Hz.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Led_Don_Sang_Chay_05Hz_map.ncd Led_Don_Sang_Chay_05Hz.ngd Led_Don_Sang_Chay_05Hz.pcf 
+par -w -intstyle ise -ol high -t 1 Led_Don_Sang_Chay_05Hz_map.ncd Led_Don_Sang_Chay_05Hz.ncd Led_Don_Sang_Chay_05Hz.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Led_Don_Sang_Chay_05Hz.twx Led_Don_Sang_Chay_05Hz.ncd -o Led_Don_Sang_Chay_05Hz.twr Led_Don_Sang_Chay_05Hz.pcf 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week7/Led_Don_Sang_Chay/Led_Don_Sang_Chay_05Hz.xst" -ofn "/home/ise/Working_Space/Week7/Led_Don_Sang_Chay/Led_Don_Sang_Chay_05Hz.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week7/Led_Don_Sang_Chay/Led_Don_Sang_Chay_05Hz.xst" -ofn "/home/ise/Working_Space/Week7/Led_Don_Sang_Chay/Led_Don_Sang_Chay_05Hz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Led_Don_Sang_Chay_05Hz.ucf -p xc3s500e-fg320-4 Led_Don_Sang_Chay_05Hz.ngc Led_Don_Sang_Chay_05Hz.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Led_Don_Sang_Chay_05Hz_map.ncd Led_Don_Sang_Chay_05Hz.ngd Led_Don_Sang_Chay_05Hz.pcf 
+par -w -intstyle ise -ol high -t 1 Led_Don_Sang_Chay_05Hz_map.ncd Led_Don_Sang_Chay_05Hz.ncd Led_Don_Sang_Chay_05Hz.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Led_Don_Sang_Chay_05Hz.twx Led_Don_Sang_Chay_05Hz.ncd -o Led_Don_Sang_Chay_05Hz.twr Led_Don_Sang_Chay_05Hz.pcf -ucf Led_Don_Sang_Chay_05Hz.ucf 
+bitgen -intstyle ise -f Led_Don_Sang_Chay_05Hz.ut Led_Don_Sang_Chay_05Hz.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week7/Led_Don_Sang_Chay/Led_Don_Sang_Chay_05Hz.xst" -ofn "/home/ise/Working_Space/Week7/Led_Don_Sang_Chay/Led_Don_Sang_Chay_05Hz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Led_Don_Sang_Chay_05Hz.ucf -p xc3s500e-fg320-4 Led_Don_Sang_Chay_05Hz.ngc Led_Don_Sang_Chay_05Hz.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Led_Don_Sang_Chay_05Hz_map.ncd Led_Don_Sang_Chay_05Hz.ngd Led_Don_Sang_Chay_05Hz.pcf 
+par -w -intstyle ise -ol high -t 1 Led_Don_Sang_Chay_05Hz_map.ncd Led_Don_Sang_Chay_05Hz.ncd Led_Don_Sang_Chay_05Hz.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Led_Don_Sang_Chay_05Hz.twx Led_Don_Sang_Chay_05Hz.ncd -o Led_Don_Sang_Chay_05Hz.twr Led_Don_Sang_Chay_05Hz.pcf -ucf Led_Don_Sang_Chay_05Hz.ucf 
+bitgen -intstyle ise -f Led_Don_Sang_Chay_05Hz.ut Led_Don_Sang_Chay_05Hz.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week7/Led_Don_Sang_Chay/Led_Don_Sang_Chay_05Hz.xst" -ofn "/home/ise/Working_Space/Week7/Led_Don_Sang_Chay/Led_Don_Sang_Chay_05Hz.syr" 

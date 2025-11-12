@@ -1,0 +1,3 @@
+verilog work "TickGen.v"
+verilog work "Led_Don_Sang_Chay.v"
+verilog work "Led_Don_Sang_Chay_05Hz.v"

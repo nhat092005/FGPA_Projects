@@ -1,0 +1,3 @@
+verilog work "SynCounter4bit.v"
+verilog work "clockDiv.v"
+verilog work "Dem_0_9.v"

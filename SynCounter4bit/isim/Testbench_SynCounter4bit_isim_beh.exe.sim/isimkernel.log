@@ -1,0 +1,10 @@
+Command line:
+   Testbench_SynCounter4bit_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  47991
+
+Sun Sep 21 07:56:07 2025
+
+
+ Elaboration Time: 0.02 sec

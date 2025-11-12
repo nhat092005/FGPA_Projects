@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/Working_Space/Week5/SynCounter4bit/Testbench_SynCounter4bit_isim_beh.exe" -prj "/home/ise/Working_Space/Week5/SynCounter4bit/Testbench_SynCounter4bit_beh.prj" "work.Testbench_SynCounter4bit" "work.glbl" 

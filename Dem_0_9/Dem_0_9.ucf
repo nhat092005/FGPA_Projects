@@ -1,0 +1,42 @@
+
+
+NET "clki" LOC = C9;
+
+
+NET "clki" IOSTANDARD = LVCMOS33;
+
+
+NET "rst_n" LOC = V4;
+
+
+NET "rst_n" PULLDOWN;
+
+
+NET "E" LOC = H18;
+
+
+NET "E" PULLUP;
+
+
+NET "S[1]" LOC = L14;
+NET "S[0]" LOC = L13;
+NET "sseg[0]" LOC = F12;
+NET "sseg[1]" LOC = E12;
+NET "sseg[2]" LOC = E11;
+NET "sseg[3]" LOC = F11;
+NET "sseg[4]" LOC = C11;
+NET "sseg[5]" LOC = D11;
+NET "sseg[6]" LOC = E9;
+
+
+NET "E" IOSTANDARD = LVTTL;
+NET "rst_n" IOSTANDARD = LVTTL;
+NET "S[1]" IOSTANDARD = LVTTL;
+NET "S[0]" IOSTANDARD = LVTTL;
+NET "sseg[6]" IOSTANDARD = LVTTL;
+NET "sseg[5]" IOSTANDARD = LVTTL;
+NET "sseg[4]" IOSTANDARD = LVTTL;
+NET "sseg[3]" IOSTANDARD = LVTTL;
+NET "sseg[2]" IOSTANDARD = LVTTL;
+NET "sseg[1]" IOSTANDARD = LVTTL;
+NET "sseg[0]" IOSTANDARD = LVTTL;

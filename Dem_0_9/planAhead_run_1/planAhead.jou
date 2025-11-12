@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Fri Sep 19 03:20:39 2025
+# Process ID: 5118
+# Log file: /home/ise/Working_Space/Week5/Dem_0_9/planAhead_run_1/planAhead.log
+# Journal file: /home/ise/Working_Space/Week5/Dem_0_9/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/ise/Working_Space/Week5/Dem_0_9/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS25 [get_ports [list clki]]
+startgroup
+set_property package_pin C9 [get_ports clki]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list clki]]
+startgroup
+set_property package_pin N17 [get_ports rst_n]
+endgroup
+set_property pulltype PULLUP [get_ports [list rst_n]]
+startgroup
+set_property package_pin H18 [get_ports E]
+endgroup
+set_property pulltype PULLUP [get_ports [list E]]
+startgroup
+set_property package_pin L14 [get_ports {S[1]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {S[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {sseg[6]}]]
+startgroup
+set_property package_pin F12 [get_ports {sseg[0]}]
+endgroup
+startgroup
+set_property package_pin E12 [get_ports {sseg[1]}]
+endgroup
+startgroup
+set_property package_pin E11 [get_ports {sseg[2]}]
+endgroup
+set_property package_pin "" [get_ports [list  {sseg[4]}]]
+startgroup
+set_property package_pin F11 [get_ports {sseg[3]}]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports {sseg[4]}]
+endgroup
+startgroup
+set_property package_pin D11 [get_ports {sseg[5]}]
+endgroup
+set_property package_pin "" [get_ports [list  {sseg[6]}]]
+startgroup
+set_property package_pin D11 [get_ports {sseg[5]}]
+endgroup
+set_property package_pin "" [get_ports [list  {sseg[6]}]]
+startgroup
+set_property package_pin D11 [get_ports {sseg[5]}]
+endgroup
+startgroup
+set_property package_pin E9 [get_ports {sseg[6]}]
+endgroup
+save_constraints

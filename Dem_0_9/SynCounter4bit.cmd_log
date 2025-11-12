@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week5/Dem_0_9/SynCounter4bit.xst" -ofn "/home/ise/Working_Space/Week5/Dem_0_9/SynCounter4bit.syr" 

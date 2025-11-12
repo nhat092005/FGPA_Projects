@@ -1,0 +1,6 @@
+verilog work "clockDiv.v"
+verilog work "SynCounter4bit.v"
+verilog work "Mux4_1.v"
+verilog work "gm_led_7doan.v"
+verilog work "ClockDivision.v"
+verilog work "Dem_0_9.v"

@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/Working_Space/Week5/Dem_0_9/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/Working_Space/Week5/Dem_0_9/xst"
+elaborate
+-ifn Mux4_1.prj
+-ifmt mixed

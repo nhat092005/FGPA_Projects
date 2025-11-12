@@ -1,0 +1,32 @@
+
+# PlanAhead Generated IO constraints 
+
+NET "so_gma[3]" IOSTANDARD = LVTTL;
+NET "so_gma[2]" IOSTANDARD = LVTTL;
+NET "so_gma[1]" IOSTANDARD = LVTTL;
+NET "so_gma[0]" IOSTANDARD = LVTTL;
+NET "sseg[6]" IOSTANDARD = LVTTL;
+NET "sseg[5]" IOSTANDARD = LVTTL;
+NET "sseg[4]" IOSTANDARD = LVTTL;
+NET "sseg[3]" IOSTANDARD = LVTTL;
+NET "sseg[2]" IOSTANDARD = LVTTL;
+NET "sseg[1]" IOSTANDARD = LVTTL;
+NET "sseg[0]" IOSTANDARD = LVTTL;
+NET "so_gma[3]" PULLUP;
+NET "so_gma[2]" PULLUP;
+NET "so_gma[1]" PULLUP;
+NET "so_gma[0]" PULLUP;
+
+# PlanAhead Generated physical constraints 
+
+NET "so_gma[3]" LOC = N17;
+NET "so_gma[2]" LOC = H18;
+NET "so_gma[1]" LOC = L14;
+NET "so_gma[0]" LOC = L13;
+NET "sseg[6]" LOC = E9;
+NET "sseg[5]" LOC = D11;
+NET "sseg[4]" LOC = C11;
+NET "sseg[3]" LOC = F11;
+NET "sseg[2]" LOC = E11;
+NET "sseg[1]" LOC = E12;
+NET "sseg[0]" LOC = F12;

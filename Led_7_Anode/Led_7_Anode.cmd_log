@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week3/Led_7_Anode/Led_7_Anode.xst" -ofn "/home/ise/Working_Space/Week3/Led_7_Anode/Led_7_Anode.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Led_7_Anode.ngc Led_7_Anode.ngd  
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week3/Led_7_Anode/Led_7_Anode.xst" -ofn "/home/ise/Working_Space/Week3/Led_7_Anode/Led_7_Anode.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Led_7_Anode.ngc Led_7_Anode.ngd  
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week3/Led_7_Anode/Led_7_Anode.xst" -ofn "/home/ise/Working_Space/Week3/Led_7_Anode/Led_7_Anode.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week3/Led_7_Anode/Led_7_Anode.xst" -ofn "/home/ise/Working_Space/Week3/Led_7_Anode/Led_7_Anode.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week3/Led_7_Anode/Led_7_Anode.xst" -ofn "/home/ise/Working_Space/Week3/Led_7_Anode/Led_7_Anode.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week3/Led_7_Anode/Led_7_Anode.xst" -ofn "/home/ise/Working_Space/Week3/Led_7_Anode/Led_7_Anode.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week3/Led_7_Anode/Led_7_Anode.xst" -ofn "/home/ise/Working_Space/Week3/Led_7_Anode/Led_7_Anode.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Led_7_Anode.ngc Led_7_Anode.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Led_7_Anode_map.ncd Led_7_Anode.ngd Led_7_Anode.pcf 
+par -w -intstyle ise -ol high -t 1 Led_7_Anode_map.ncd Led_7_Anode.ncd Led_7_Anode.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Led_7_Anode.twx Led_7_Anode.ncd -o Led_7_Anode.twr Led_7_Anode.pcf 
+bitgen -intstyle ise -f Led_7_Anode.ut Led_7_Anode.ncd 

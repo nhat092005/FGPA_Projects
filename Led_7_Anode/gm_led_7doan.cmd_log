@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week3/Led_7_Anode/gm_led_7doan.xst" -ofn "/home/ise/Working_Space/Week3/Led_7_Anode/gm_led_7doan.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 gm_led_7doan.ngc gm_led_7doan.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o gm_led_7doan_map.ncd gm_led_7doan.ngd gm_led_7doan.pcf 
+par -w -intstyle ise -ol high -t 1 gm_led_7doan_map.ncd gm_led_7doan.ncd gm_led_7doan.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml gm_led_7doan.twx gm_led_7doan.ncd -o gm_led_7doan.twr gm_led_7doan.pcf 
+bitgen -intstyle ise -f gm_led_7doan.ut gm_led_7doan.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week3/Led_7_Anode/gm_led_7doan.xst" -ofn "/home/ise/Working_Space/Week3/Led_7_Anode/gm_led_7doan.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc gm_led_7doan.ucf -p xc3s500e-fg320-4 gm_led_7doan.ngc gm_led_7doan.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o gm_led_7doan_map.ncd gm_led_7doan.ngd gm_led_7doan.pcf 
+par -w -intstyle ise -ol high -t 1 gm_led_7doan_map.ncd gm_led_7doan.ncd gm_led_7doan.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml gm_led_7doan.twx gm_led_7doan.ncd -o gm_led_7doan.twr gm_led_7doan.pcf -ucf gm_led_7doan.ucf 
+bitgen -intstyle ise -f gm_led_7doan.ut gm_led_7doan.ncd 

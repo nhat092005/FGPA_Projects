@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Fri Sep 12 02:33:14 2025
+# Process ID: 6114
+# Log file: /home/ise/Working_Space/Week3/Led_7_Anode/planAhead_run_2/planAhead.log
+# Journal file: /home/ise/Working_Space/Week3/Led_7_Anode/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/ise/Working_Space/Week3/Led_7_Anode/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard LVTTL [get_ports [list {sw[3]} {sw[2]} {sw[1]} {sw[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {sseg[6]} {sseg[5]} {sseg[4]} {sseg[3]} {sseg[2]} {sseg[1]} {sseg[0]}]]
+set_property iostandard LVCMOS25 [get_ports [list {anode[0]}]]
+set_property iostandard LVTTL [get_ports [list {sseg[6]} {sseg[5]} {sseg[4]} {sseg[3]} {sseg[2]} {sseg[1]} {sseg[0]}]]
+set_property pulltype PULLUP [get_ports [list {sw[3]} {sw[2]} {sw[1]} {sw[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {anode[7]} {anode[6]} {anode[5]} {anode[4]} {anode[3]} {anode[2]} {anode[1]} {anode[0]}]]
+set_property iostandard LVTTL [get_ports [list {anode[7]} {anode[6]} {anode[5]} {anode[4]} {anode[3]} {anode[2]} {anode[1]} {anode[0]}]]

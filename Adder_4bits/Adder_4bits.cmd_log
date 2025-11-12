@@ -1,0 +1,36 @@
+xst -intstyle ise -ifn "/home/ise/Working_Space/Adder_4bits/Adder_4bits.xst" -ofn "/home/ise/Working_Space/Adder_4bits/Adder_4bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Adder_4bits.ucf -p xc3s500e-fg320-4 Adder_4bits.ngc Adder_4bits.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Adder_4bits_map.ncd Adder_4bits.ngd Adder_4bits.pcf 
+par -w -intstyle ise -ol high -t 1 Adder_4bits_map.ncd Adder_4bits.ncd Adder_4bits.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Adder_4bits.twx Adder_4bits.ncd -o Adder_4bits.twr Adder_4bits.pcf -ucf Adder_4bits.ucf 
+bitgen -intstyle ise -f Adder_4bits.ut Adder_4bits.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Adder_4bits/Adder_4bits.xst" -ofn "/home/ise/Working_Space/Adder_4bits/Adder_4bits.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Adder_4bits/Adder_4bits.xst" -ofn "/home/ise/Working_Space/Adder_4bits/Adder_4bits.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Adder_4bits/Adder_4bits.xst" -ofn "/home/ise/Working_Space/Adder_4bits/Adder_4bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Adder_4bits.ucf -p xc3s500e-fg320-4 Adder_4bits.ngc Adder_4bits.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Adder_4bits_map.ncd Adder_4bits.ngd Adder_4bits.pcf 
+par -w -intstyle ise -ol high -t 1 Adder_4bits_map.ncd Adder_4bits.ncd Adder_4bits.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Adder_4bits.twx Adder_4bits.ncd -o Adder_4bits.twr Adder_4bits.pcf -ucf Adder_4bits.ucf 
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Adder_4bits_map.ncd Adder_4bits.ngd Adder_4bits.pcf 
+par -w -intstyle ise -ol high -t 1 Adder_4bits_map.ncd Adder_4bits.ncd Adder_4bits.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Adder_4bits.twx Adder_4bits.ncd -o Adder_4bits.twr Adder_4bits.pcf -ucf Adder_4bits.ucf 
+bitgen -intstyle ise -f Adder_4bits.ut Adder_4bits.ncd 
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Adder_4bits_map.ncd Adder_4bits.ngd Adder_4bits.pcf 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Chapter_2/Adder_4bits/Adder_4bits.xst" -ofn "/home/ise/Working_Space/Chapter_2/Adder_4bits/Adder_4bits.syr" 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Chapter_2/Adder_4bits/Adder_4bits.xst" -ofn "/home/ise/Working_Space/Chapter_2/Adder_4bits/Adder_4bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Adder_4bits.ucf -p xc3s500e-fg320-4 Adder_4bits.ngc Adder_4bits.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Adder_4bits_map.ncd Adder_4bits.ngd Adder_4bits.pcf 
+par -w -intstyle ise -ol high -t 1 Adder_4bits_map.ncd Adder_4bits.ncd Adder_4bits.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Adder_4bits.twx Adder_4bits.ncd -o Adder_4bits.twr Adder_4bits.pcf -ucf Adder_4bits.ucf 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Chapter_2/Adder_4bits/Adder_4bits.xst" -ofn "/home/ise/Working_Space/Chapter_2/Adder_4bits/Adder_4bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Adder_4bits.ucf -p xc3s500e-fg320-4 Adder_4bits.ngc Adder_4bits.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Adder_4bits_map.ncd Adder_4bits.ngd Adder_4bits.pcf 
+par -w -intstyle ise -ol high -t 1 Adder_4bits_map.ncd Adder_4bits.ncd Adder_4bits.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Adder_4bits.twx Adder_4bits.ncd -o Adder_4bits.twr Adder_4bits.pcf -ucf Adder_4bits.ucf 
+bitgen -intstyle ise -f Adder_4bits.ut Adder_4bits.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Chapter_2/Adder_4bits/Adder_4bits.xst" -ofn "/home/ise/Working_Space/Chapter_2/Adder_4bits/Adder_4bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Adder_4bits.ucf -p xc3s500e-fg320-4 Adder_4bits.ngc Adder_4bits.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Adder_4bits_map.ncd Adder_4bits.ngd Adder_4bits.pcf 
+par -w -intstyle ise -ol high -t 1 Adder_4bits_map.ncd Adder_4bits.ncd Adder_4bits.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Adder_4bits.twx Adder_4bits.ncd -o Adder_4bits.twr Adder_4bits.pcf -ucf Adder_4bits.ucf 
+bitgen -intstyle ise -f Adder_4bits.ut Adder_4bits.ncd 

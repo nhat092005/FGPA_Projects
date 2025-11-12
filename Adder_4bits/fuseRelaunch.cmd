@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/Working_Space/Chapter_2/Adder_4bits/Testbench_Adder_4bits_isim_beh.exe" -prj "/home/ise/Working_Space/Chapter_2/Adder_4bits/Testbench_Adder_4bits_beh.prj" "work.Testbench_Adder_4bits" "work.glbl" 

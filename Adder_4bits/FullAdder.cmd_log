@@ -1,0 +1,2 @@
+vhdtdtfi -lib work /home/ise/Working_Space/Adder_4bits/FullAdder.v -lang verilog -prj Adder_4bits -o FullAdder.spl -module FullAdder -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e FullAdder.spl /home/ise/Working_Space/Adder_4bits/FullAdder.sym 

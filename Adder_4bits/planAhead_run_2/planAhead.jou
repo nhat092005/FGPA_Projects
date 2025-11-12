@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Fri Aug 29 01:46:04 2025
+# Process ID: 3347
+# Log file: /home/ise/Working_Space/Chapter_2/Adder_4bits/planAhead_run_2/planAhead.log
+# Journal file: /home/ise/Working_Space/Chapter_2/Adder_4bits/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/ise/Working_Space/Chapter_2/Adder_4bits/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property pulltype PULLDOWN [get_ports [list Cin]]
+save_constraints

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/Working_Space/Week6/Auto_Counter_0_9/Testbench_Auto_Bidirectional_Counter_isim_beh.exe" -prj "/home/ise/Working_Space/Week6/Auto_Counter_0_9/Testbench_Auto_Bidirectional_Counter_beh.prj" "work.Testbench_Auto_Bidirectional_Counter" "work.glbl" 

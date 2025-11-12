@@ -1,0 +1,3 @@
+verilog work "clockDiv_Enable.v"
+verilog work "Auto_Bidirectional_Counter.v"
+verilog work "Auto_Counter_0_9.v"

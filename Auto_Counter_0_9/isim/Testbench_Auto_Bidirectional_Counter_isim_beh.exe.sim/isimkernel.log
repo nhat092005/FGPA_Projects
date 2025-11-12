@@ -1,0 +1,10 @@
+Command line:
+   Testbench_Auto_Bidirectional_Counter_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  34794
+
+Fri Sep 26 04:08:28 2025
+
+
+ Elaboration Time: 0.05 sec

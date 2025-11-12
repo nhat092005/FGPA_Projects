@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Auto_Counter_0_9/Auto_Counter_0_9.xst" -ofn "/home/ise/Working_Space/Week6/Auto_Counter_0_9/Auto_Counter_0_9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Auto_Counter_0_9.ucf -p xc3s500e-fg320-4 Auto_Counter_0_9.ngc Auto_Counter_0_9.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Auto_Counter_0_9_map.ncd Auto_Counter_0_9.ngd Auto_Counter_0_9.pcf 
+par -w -intstyle ise -ol high -t 1 Auto_Counter_0_9_map.ncd Auto_Counter_0_9.ncd Auto_Counter_0_9.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Auto_Counter_0_9.twx Auto_Counter_0_9.ncd -o Auto_Counter_0_9.twr Auto_Counter_0_9.pcf -ucf Auto_Counter_0_9.ucf 
+bitgen -intstyle ise -f Auto_Counter_0_9.ut Auto_Counter_0_9.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Auto_Counter_0_9/Auto_Counter_0_9.xst" -ofn "/home/ise/Working_Space/Week6/Auto_Counter_0_9/Auto_Counter_0_9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Auto_Counter_0_9.ucf -p xc3s500e-fg320-4 Auto_Counter_0_9.ngc Auto_Counter_0_9.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Auto_Counter_0_9_map.ncd Auto_Counter_0_9.ngd Auto_Counter_0_9.pcf 
+par -w -intstyle ise -ol high -t 1 Auto_Counter_0_9_map.ncd Auto_Counter_0_9.ncd Auto_Counter_0_9.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Auto_Counter_0_9.twx Auto_Counter_0_9.ncd -o Auto_Counter_0_9.twr Auto_Counter_0_9.pcf -ucf Auto_Counter_0_9.ucf 
+bitgen -intstyle ise -f Auto_Counter_0_9.ut Auto_Counter_0_9.ncd 
+xst -intstyle ise -ifn "/home/ise/Working_Space/Week6/Auto_Counter_0_9/Auto_Counter_0_9.xst" -ofn "/home/ise/Working_Space/Week6/Auto_Counter_0_9/Auto_Counter_0_9.syr" 
